@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+
+<div>
+Domain name:<br />
+<input type="text" name="inputDomain" placeholder="e.g. mail.google.com - copy/paste from the address bar"><br /><br />
+Pass phrase:<br />
+<input type="text" name="inputPhrase" placeholder="type your pass phrase here"><br />
+Double check:<br />
+<input type="text" name="inputPhraseVerification" placeholder="retype for verification"><br /><br />
+<button type="button" onClick="return processInputData()">submit</button><br />
+</div>
+<div>
+<p name="output"></p>
+</div>
+
+{% endblock content %}
+
+
