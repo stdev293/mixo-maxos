@@ -10,5 +10,4 @@ from frontend import MainPage
 #------------------------------------------------------------------------------
 # web app launcher: links handlers to URLs
 #------------------------------------------------------------------------------
-app = webapp2.WSGIApplication([('/', MainPage)])#,
-                              ,debug=True)
+app = webapp2.WSGIApplication([('/', MainPage)])#,debug=True)
