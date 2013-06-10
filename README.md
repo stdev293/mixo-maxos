@@ -2,11 +2,11 @@ mixo-maxos
 ==========
 
 ## Introduction ##
-Mixo-maxos is intended to be a password generator for all you web needs.
+Mixo-maxos is intended to be a password generator for all your web needs.
 
-## Disclaimer ##
+### Disclaimer ###
 Mixo-maxos is an experimental project and its concept has not been validated by any cryptography/security expert. Use it at your own risk.
-Moreover it is far from finished yet, so please be kind to the developers.
+Moreover it is far from finished yet, so please be kind to the developer.
 
 ## Why ##
 It addresses the following safety concerns:
@@ -21,12 +21,16 @@ The benefit of this system is that the multiple passwords do not have to be reco
 
 Note that the complete key generation is done in-browser (client-side javascript only), so the generating data does not transit to potentially unsecure connections.
 
-## Online here ##
+### Online here ###
 http://mixo-maxos.appspot.com/
 
-## Inspiration ##
+## More ##
+### Inspiration ###
 http://xkcd.com/936/
 
-## Credits ##
+### See also ###
+http://googleblog.blogspot.com/2013/05/helping-passwords-better-protect-you.html
+
+### Credits ###
 SHA256 javascript library by caligatio: http://caligatio.github.com/jsSHA/
 
