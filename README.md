@@ -21,6 +21,12 @@ The benefit of this system is that the multiple passwords do not have to be reco
 
 Note that the complete key generation is done in-browser (client-side javascript only), so the generating data does not transit to potentially unsecure connections.
 
+
+## other pros/cons
+- (+) no risk of losing your local-stored password vault (file, usb stick, etc.)
+- (-) if your master password gets compromized, attacker can access all your accounts... (could be partially overcome with IP check or 2-factor auth, could also find other ideas...)
+
+
 ### Online here ###
 http://mixo-maxos.appspot.com/
 
@@ -30,6 +36,7 @@ http://xkcd.com/936/
 
 ### See also ###
 http://googleblog.blogspot.com/2013/05/helping-passwords-better-protect-you.html
+https://www.schneier.com/blog/archives/2013/06/a_really_good_a.html
 
 ### Credits ###
 SHA256 javascript library by caligatio: http://caligatio.github.com/jsSHA/
